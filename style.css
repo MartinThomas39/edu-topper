@@ -1,0 +1,146 @@
+*{ 
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box
+}
+.nav{
+  background: linear-gradient(#EC008C,#FC6767);
+  height: 300px;
+  align-items: center;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: -10px;
+}
+.nav nav h1{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 25px;
+  padding-top: 15px;
+}
+.nav nav hr{
+  outline: none;
+  overflow: hidden;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.box1{
+  color: white;
+  display: inline-flex;
+}
+img{
+  height: 150px;
+  width: 150px;
+  margin-top: 25px;
+}
+.box1 h2{
+  margin-top: 70px;
+  margin-left: 25px;
+  font-size: 20px;
+}
+p{
+  color: white;
+  font-size: 13px;
+  margin-top: 15px;
+}
+span{
+  font-weight: bolder;
+}
+.benefits{
+  margin-top: 50px;
+  margin-left: 25px;
+}
+.box2 p{
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.h2{
+  text-transform: uppercase;
+  color: transparent;
+  border: none;
+  color: black;
+  margin-left: 15px;
+}
+.box3{
+  display: grid;
+  padding: 15px;
+  height: 300px;
+  justify-content: center;
+  margin: 15px;
+  border-radius: 25px;
+}
+button{
+  margin: 15px;
+  width: 300px;
+  height: 50px;
+  background: white;
+  border: solid;
+  outline: none;
+  background: transparent;
+  border-image: linear-gradient(#EC008C,#FC6767) 1;
+  border-image-width: 2px;
+  color: black;
+  font-size: 15px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+button:hover{
+  background: linear-gradient(#EC008C,#FC6767);
+  color: white;
+  border-image: none;
+  border-radius: 9px;
+}
+.box4{
+  margin-top: 50px;
+}
+.p1{
+  color: black;
+  padding: 25px;
+  font-size: 15px;
+  font-weight: normal;
+}
+footer{
+  background: linear-gradient(180deg,#EC008C,#FC6767);
+  height: 260px;
+}
+.f1 h1{
+  color: white;
+  font-size: 23px;
+  text-align: center;
+  padding-top: 25px;
+}
+.f1 p{
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+}
+.f1 div{
+  display: flex;
+}
+i{
+  color: white;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.i{
+  min-width: 360px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0 2px white;
+}
+i:hover{
+  color: cyan;
+  text-shadow: 0 0 3px white, 
+              0 0 5px cyan;
+}
+.f2 p{
+  color: white;
+  margin-left: 10px;
+  background: transparent;
+  margin-bottom: 10px;
+  font
+}
+span{
+  color: cyan;
+}
